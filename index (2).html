@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Daily Habit Streak Tracker</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="app">
+    <header class="app-header">
+      <h1>🔥 Habit Streak Tracker</h1>
+      <p class="subtitle">Build habits, one day at a time</p>
+    </header>
+
+    <section class="add-habit-card">
+      <input type="text" id="habitName" placeholder="Habit name (e.g. Drink Water)">
+      <select id="habitCategory">
+        <option value="health">Health</option>
+        <option value="study">Study</option>
+        <option value="fitness">Fitness</option>
+        <option value="mindfulness">Mindfulness</option>
+        <option value="other">Other</option>
+      </select>
+      <button id="addHabitBtn">+ Add Habit</button>
+    </section>
+
+    <section class="stats-bar" id="statsBar">
+      <div class="stat">
+        <span class="stat-value" id="totalHabits">0</span>
+        <span class="stat-label">Habits</span>
+      </div>
+      <div class="stat">
+        <span class="stat-value" id="bestStreak">0</span>
+        <span class="stat-label">Best Streak</span>
+      </div>
+      <div class="stat">
+        <span class="stat-value" id="doneToday">0</span>
+        <span class="stat-label">Done Today</span>
+      </div>
+    </section>
+
+    <section class="habit-list" id="habitList">
+      <!-- Habit cards injected by JS -->
+    </section>
+
+    <p class="empty-state" id="emptyState">No habits yet. Add your first one above 👆</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
