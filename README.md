@@ -3,7 +3,7 @@
 A simple web application that helps users track their daily habits and maintain streaks. The application provides an easy-to-use interface for adding habits, marking daily completion, viewing streak counts, and monitoring progress.
 
 ## Features
-- Add and delete daily habits
+- Add and delete 
 - Mark habits as completed
 - Automatic streak tracking
 - Progress monitoring
