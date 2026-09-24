@@ -8,7 +8,7 @@ A simple web application that helps users track their daily habits and maintain 
 - Automatic streak tracking
 - Progress monitoring
 - Responsive user interface
-- Local storage support (data saved in browser)
+- Local storage support 
 
 ## Technologies Used
 - HTML5
